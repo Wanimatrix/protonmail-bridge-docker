@@ -9,7 +9,7 @@ else
   TAG="amd64"
 fi
 if [ "$PRE" = "false" ]; then
- docker build --no-cache -t ganeshlab/protonmail-bridge:$VER-$TAG .
+ docker build --no-cache -t Wanimatrix/protonmail-bridge:$VER-$TAG .
 else
- docker build --no-cache -t ganeshlab/protonmail-bridge:dev-$VER-$TAG .
+ docker build --no-cache -t Wanimatrix/protonmail-bridge:dev-$VER-$TAG .
 fi
