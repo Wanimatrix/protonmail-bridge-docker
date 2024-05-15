@@ -11,7 +11,7 @@ RUN make build-nogui
 
 # Production image, copy files and run
 FROM debian:stable-slim
-LABEL maintainer="ganeshlab"
+LABEL maintainer="Wanimatrix"
 
 RUN apt-get update && apt-get install -y --no-install-recommends pass libsecret-1-0 ca-certificates
 
